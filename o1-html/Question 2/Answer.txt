@@ -1,0 +1,15 @@
+Answer 1) After apply the span selector in an embededded style tag on the page and set width to 40% , element appear as previous .The width have no any effect because span is an inline element. We can not set width on inline elements. Inline Element will always take up only as much width as required.
+
+
+Answer 2) After Set display to inline , No change occured because This property is used to display an element as an inline element.
+
+
+Answer 3) Yes Change Occured , the elements are shows in next line , after Set display to block because This property is used to display an element as an block element and fills the entire line, and nothing can be displayed on its left or right side.
+
+Answer 4)Yes Change Occured , the elements appears in that line as a inline element and takes the width of 40% as a property of block elemnt.
+
+
+Answer 5) CONCLUSION--
+display: inline-block does not add a line-break after the element, so the element can sit next to other elements, but with display:block they are not.
+display: inline-block, the top and bottom margins/paddings are respected, but with display: inline they are not.
+

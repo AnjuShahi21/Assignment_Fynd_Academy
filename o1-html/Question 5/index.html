@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment5</title>
+    <style>
+        .navbar {
+            display: inline;
+        }
+
+        * {
+            padding: 0;
+        }
+
+        .color {
+            color: red;
+
+        }
+
+        .btn_padding {
+            padding: 4px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li class="navbar"> <a href="index.html">Home</a></li>
+            <li class="navbar"> <a href="portfolio.html">portfolio</a></li>
+            <li class="navbar"> <a href="contactus.html">Contact</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Example Consulting Pvt. Ltd.</h1>
+    </header>
+    <hr>
+    <main>
+        <h2>Contact Us</h2>
+        <p>Phone:
+            <a href="tel:+8303034816">+001-123-456-7890</a>
+        </p>
+        <p>Email:
+            <a href="mailto:anjushahi2002@gmail.com">hello@example.com</a>
+        </p>
+    </main>
+    <section>
+        <h2>Drop a message</h2>
+        <p>Please drop us a message by filling out this form and we will get back to you within 2 working days.</p>
+        <p>Filled marked with <span class="color">*</span>are required</p>
+        <form action="success.html" method="get">
+            <p>
+                <label for="username">Your Name <span class="color">*</span></label>
+            </p>
+            <input type="text" value="John Doe" placeholder="Name" id="username" name="user_name" required />
+            <p>
+                <label for="useremail">Your Email<span class="color">*</span></label>
+            </p>
+            <input type=" email" value="john doe@example.com" placeholder="Email" id="useremail" name="user_email"
+                required />
+
+            <p>What are you looking to build? <span class="color">*</span></p>
+            <select name="Subject" id="">
+                <option value="Default">&#10004; -- Choose one --</option>
+                <option value="val1">Blog</option>
+                <option value="val2">Online Store</option>
+                <option value="val3">Game</option>
+                <option value="val4">Other</option>
+            </select>
+            <div>
+                <p>Platforms you plan to support<span class="color">*</span></p>
+                <input type="checkbox" id="support1" name="support1" value="web">
+                <label for="support1"> Web</label>
+                <input type="checkbox" id="support2" name="support2" value="Mobile">
+                <label for="support1"> Mobile</label>
+                <input type="checkbox" id="support3" name="support3" value="Desktop">
+                <label for="support3"> Desktop</label>
+            </div>
+            <div>
+                <p>
+                    <label for="message">Message</label>
+                </p>
+                <textarea id="message" name="message" rows="4" cols="50">
+                </textarea>
+
+            </div>
+            <div class="mess_btn">
+                <p>
+                    <input class="btn_padding" type="reset" value="Reset" />
+                    <input class="btn_padding" type="submit" value="Send message" />
+                </p>
+            </div>
+        </form>
+    </section>
+    <hr>
+    <footer>
+        &copyexample.com
+    </footer>
+</body>
+
+</html>
